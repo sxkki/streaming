@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="../src/css/styleLog.css">
+</head>
+<body>
+    <div class="t-form">        
+        <form onsubmit="crear()">
+            <h3 id="titulo">Registrate</h3>
+            <table>
+                <tr>
+                    <td>Usuario:</td>
+                    <td><input class="register" type="text" name="username" id="username" size="18"></td>
+                </tr>
+                <tr>
+                    <td>Correo Electronico:</td>
+                    <td><input class="register" type="email" name="email" id="email" size="18"></td>
+                </tr>
+                <tr>
+                    <td>Contraseña:</td>
+                    <td><input class="register" type="password" name="password" id="password" size="18" maxlength="18"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input class="btn-register" type="submit" value="Resgistrate"></td>
+                </tr>
+            </table>
+            <p><a href="../public/index.html">¿Ya tienes Cuenta?</a></p>
+        </form>        
+    </div>
+    <script src="../src/js/main.js"></script>
+</body>
+</html>
