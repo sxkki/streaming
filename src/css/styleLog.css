@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/fond.jfif);
+    background-attachment: fixed;
+}
+
+/*Formularios*/
+
+.t-form {
+    width: 400px;
+    height: auto;
+    background: #4e4d4d;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    color: white;
+    border-top: 4px solid #017bab;
+}
+
+.t-form #titulo {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px
+}
+
+.t-form #result {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 20px
+}
+
+
+.login {
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 11px 10px;
+    background: #252323;
+    border: 1px solid #017bab;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.register {
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 11px 10px;
+    background: #252323;
+    border: 1px solid #017bab;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.t-form p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.t-form a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.t-form a:hover {
+    text-decoration: underline;
+}
+
+/*Botones*/
+
+.btn {
+    width: 100%;
+    height: 40px;
+    background: #017bab;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+    transition: all 300ms;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #017bab;
+}
+
+.btn-register {
+    width: 100%;
+    height: 40px;
+    background: #017bab;
+    border: none;
+    color: white;
+    margin-top: 16px;
+    transition: all 300ms;
+}
+
+.btn-register:hover {
+    background-color: #fff;
+    color: #017bab;
+}
+
+
